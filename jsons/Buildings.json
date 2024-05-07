@@ -1,0 +1,229 @@
+//Reach - Garden,  Vineyard, the Citadel
+//North - Weirdwood, Greenhouse?
+//Stormlands - Tourney Arena, Blacksmith?
+//Dorne - Water Garden
+//Vale - Moon Door, Crescent Chambers
+//Iron Islands - Port
+//Westerlands - Sellsword Camp, Banquet Hall
+//Riverlands - Fortress, Water Mill?
+//Crownlands - Various national wonders
+
+[
+	{
+		"name": "Iron Bank Delegation",
+"requiredTech": "Currency",
+		"cost": 120,
+		"isNationalWonder": "true",
+  "maintenance": 6,
+		"requiredResource": "Square Coin",
+  "percentStatBonus": {"Gold": 33},
+		"hurryCostModifier": 55,
+		"uniques": ["[+2 Gold] from every [Merchant]", "[+33]% Yield from every [Gold]"],
+	},
+{
+		"name": "Sellsword Camp",
+"uniqueTo": "The Westerlands",
+		"replaces": "Barracks",
+		"hurryCostModifier": 0,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "[Gold] cost of purchasing [Military] units [-15]%", "[+1 Gold] from [Fort] tiles [in this city]", "[2] free [Brave Companions] units appear"],
+		"requiredTech": "Bronze Working"
+	},
+	
+{
+		"name": "Essosi Sellsword Camp",
+		"hurryCostModifier": 0,
+	        "requiredResource": "Eastern Check",
+		"uniques": ["Destroyed when the city is captured", "[Gold] cost of purchasing [Military] units [-15]%"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Targaryen Keep",
+		"uniqueTo": "The Crownlands",
+		"replaces": "Courthouse",
+		"maintenance": 2,
+  "culture": 1,
+  "cost": 75,
+  "cityHealth": 25,
+  "cityStrength": 3,
+		"hurryCostModifier": 20,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			 "[-3] population [in this city] <upon constructing [Targaryen Keep]>", "[+1] population in a random city <upon constructing [Targaryen Keep]>", "[+1] population [in capital] <upon constructing [Targaryen Keep]>", "[+2 Production, +1 Gold] [in capital]"],
+		"requiredTech": "Mathematics",
+                "civilopediaText": [
+			{"text": "Monument for the Old Sods. An altar of whoreship."},
+        ]
+	},
+		{
+		"name": "Wetlands Mill",
+		"maintenance": 0,
+		"uniqueTo": "The Riverlands",
+		  "replaces": "Water Mill",
+		"gold": 1,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]", "[+1 Food] from [Marsh] tiles [in this city]",  "[+1 Food] from [Lake] tiles [in this city]",  "[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Arbor Vineyard",
+		"maintenance": 1,
+  "replaces": "Mint",
+		"uniqueTo": "The Reach",
+		"requiredNearbyImprovedResources": ["Wine", "Citrus", "Dyes", "Incense", "Spices", "Silk", "Cotton", "Cocoa", "Sugar", "Bananas"],
+		"hurryCostModifier": 25,
+  "culture": 1,
+  "happiness": 1,
+		"uniques": ["[+1 Gold] from [Plantation] tiles [in this city]", 
+"[+1 Happiness, +1 Food] from [Wine] tiles [in this city]", 
+"Provides [1] [Wine]"],
+		"requiredTech": "Currency"
+	},
+{
+		"name": "Godswood",
+		"maintenance": 0,
+  "replaces": "Shrine",
+		"uniqueTo": "The North",
+		"hurryCostModifier": 100,
+ 	"requiredTech": "Agriculture",
+  "culture": 1,
+  "faith": 1,
+		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber Mill] [in this city]", "Reveal up to [All] [Forest] within a [8] tile radius"],
+	},
+	{
+		"name": "Oily Stone Shrine",
+		"maintenance": 0,
+  "replaces": "Shrine",
+		"uniqueTo": "The Iron Islands",
+		"hurryCostModifier": 30,
+  "culture": 1,
+  "faith": 1,
+ 	"requiredTech": "Sailing",
+  "food": -1,
+		"uniques": ["[+1 Faith] from [Coast] tiles [in this city]", "Can only be built <in [Coastal] cities>", "[+2 Faith] from [Ocean] tiles [in this city]", "All newly-trained [Sword] units [in this city] receive the [What is dead may never die] promotion", "All newly-trained [Gunpowder] units [in this city] receive the [What is dead may never die] promotion"],
+	},
+{
+		"name": "Crescent Gardens",
+"replaces": "Garden",
+		"uniqueTo": "The Vale",
+  "culture": 1,
+	"food": 1,
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be on [Hills]", "[+1 Food] from [Hills] tiles [in this city]", "[+1 Food, +1 Faith] from [Mountain] tiles [in this city]", "[+10]% Food is carried over after population increases [in this city]"],
+		"hurryCostModifier": 45,
+		"maintenance": 2,
+		"requiredTech": "Engineering"
+	},
+{
+		"name": "Moon Door",
+		"cityStrength": 15,
+		"cityHealth": 100,
+  "replaces": "Castle",
+		"uniqueTo": "The Vale",
+		"hurryCostModifier": 100,
+  "cost": 200,
+  "faith": 1
+		"requiredBuilding": "Walls",
+		"requiredTech": "Engineering",
+		"uniques": ["Must be next to [Mountain]", "[+1 Gold] from [Mountain] tiles [in this city] <when not at war>", "[-10]% Unhappiness from [Population] [in this city] <when not at war>"]
+	},
+{
+		"name": "Water Garden",
+"replaces": "Garden",
+		"uniqueTo": "Dorne",
+  "culture": 2,
+	"cost": 160,
+"requiredTech": "Construction",
+  "happiness": 1,
+  "maintenance": 2,
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [River]", "[+1 Culture] from [Oasis] tiles [in this city]", "[+1 Food] from [{Desert} {Farm}] tiles [in this city]"],
+		"hurryCostModifier": 35,
+   "percentStatBonus": {"Food": 10},
+	}, 
+{
+		"name": "Greenblood Orphanage",
+  "replaces": "Water Mill",
+		"uniqueTo": "Dorne",
+"requiredTech": "Sailing",
+		"cost": 120,
+		"maintenance": 1,
+  "culture": 1,
+  "food": 1,
+  "percentStatBonus": {"Culture": 10, "Gold": 5},
+		"hurryCostModifier": 55,
+		"uniques": ["[+1 Gold, +1 Culture] from [Trading Post] tiles [in this city] <in [River] tiles>", "[+1 Culture] from all [Greenblood Orphanage] buildings", "[+1 Culture] from each Trade Route", "[+1] population [in this city] <upon entering a new era>", "[+10]% Production when constructing [Naval] units [in this city]", "Can only be built <within [1] tiles of a [Water]>"],
+	},
+{
+		"name": "Tourney Grounds",
+  "replaces": "Colosseum",
+		"uniqueTo": "The Stormlands",
+  "production": 1,
+   "culture": 1,
+  "happiness": 2,
+"requiredTech": "Horseback Riding",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+	"uniques": ["New [Land] units start with [10] Experience [in this city]", "[+10]% Production when constructing [Sword] units [in this city]",  
+"[+10]% Production when constructing [Mounted] units [in this city]"],
+	},
+	{
+		"name": "Mistwood Smithy",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+  "specialistSlots": {"Engineer": 1},
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+  "cityHealth": 20,
+		"uniqueTo": "The Stormlands",
+		"replaces": "Forge",
+		"uniques": ["[+10]% Production when constructing [Spaceship part] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]", 
+			"[+2 Production] from [Iron] tiles [in this city]", "[+1 Production] from [Forest] tiles [in this city]"]
+	},
+		{
+		"name": "Maester's Citadel",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+                "specialistSlots": {"Maester": 4},
+                "cost": 230,
+		"requiredTech": "Philosophy",
+                "science": 4,
+		"culture": 1,
+"isNationalWonder": true,
+	        "percentStatBonus": {"Science": 10},
+		"uniqueTo": "The Reach",
+		"replaces": "National Epic",
+		"uniques": ["Provides [9] [Maester's Chain]", 
+			"Never destroyed when the city is captured", 
+			"[+25]% Great Person generation [in this city]",
+			"Gain a free [Maester's Chambers] [in this city]",
+		        "[+1 Science] per [4] population [in all cities]"]
+	},
+	{
+		"name": "Maester's Chambers",
+		"maintenance": 1,
+		"hurryCostModifier": 20,
+  "specialistSlots": {"Maester": 1},
+  "cost": 75,
+		"requiredTech": "Mathematics",
+  "science": 4,
+"requiredResource": "Maester's Chain",
+	 "percentStatBonus": {"Science": -4},
+		"uniques": ["[+25]% Food is carried over after population increases [in this city]",
+			"Science gained from research agreements [+25]%",
+		        "[+25]% Production when constructing [Science] buildings [in this city]"
+		]
+	},
+	{
+		"name": "House of Black and White",
+		"maintenance": 1,
+		"hurryCostModifier": 20,
+  "cost": 175,
+"requiredResource": "Square Coin",
+		"uniques": ["[-25]% Food is carried over after population increases [in this city]",
+			"[-25]% Unhappiness from [Population] [in this city]"
+		]
+	},
+	
+]
+
+

@@ -1,0 +1,563 @@
+[
+{                
+  "name": "The North",
+
+                "leaderName": "Eddard Stark",
+
+                "adjective": ["Northerner"],
+
+                "personality": "Stark",
+
+                "startBias": ["Tundra"],
+
+                "preferredVictoryType": "Neutral",
+
+                "style": "Slavic",
+
+  //"favoredReligion": "The Old Gods",
+
+                "declaringWar": "The man who passes the sentence should swing the sword. \nI, Eddard of the House Stark, Lord of Winterfell and Warden of the North, sentence you to die.",
+
+                "attacked": "Why is it always the innocents who suffer most, \nwhen you high lords play your Game of Thrones?",
+
+                "defeated":  "I cannot believe it all turned out like this... \nI swear to you, this has never happened to me before... \nthis is truly the moment Ned Stark became dead Stark...",
+
+"hateHello": "You've called for me, Lord grmbmblgrm?",
+	
+                "hateHello": "Do you have a shred of honor?",
+
+"introduction":  "Ned's dead, son.",
+
+
+                "hateLetsHearIt": ["Speak!"],
+
+                "tradeRequest": "When the snows fall and the white winds blow, the lone wolf dies but the pack survives.",
+
+                "outerColor": [        226, 221, 224],
+
+                "innerColor": [        141, 137, 139],
+
+                "uniqueName": "Winter starts coming and it don't stop coming.",
+
+                "uniques": ["[+1 Food] from [Tundra] tiles [in all cities]", 
+                  "[+1 Culture] from [Forest] tiles without [Lumber Mill] [in all cities]", 
+                  "[+15]% Strength <when fighting in [Friendly land] tiles>", "[+15]% Strength <when fighting in [Tundra] tiles>"],
+
+                "cities": ["Winterfell","White Harbor","Torrhen's Square","Karhold","Barrowtown","The Dreadfort","Moat Cailin","Deepwood Motte","Flint's Finger"]
+        },
+{               
+  "name": "The Riverlands",
+
+                "leaderName": "Edmure Tully",
+
+                "adjective": ["Hapless flounderer"],
+
+                "personality": "Tully",
+
+                "startBias": ["River", "Avoid Desert", "Avoid Tundra"],
+
+                "preferredVictoryType": "Cultural",
+
+                "style": "Germanic",
+
+  //"favoredReligion": "The Seven",
+
+                "declaringWar": "You know what, I'm gonna be completely honest. I'm tired of waiting for some kingdom to kick the shit out of us again. \nJust end it, ok? I can't stand this anymore.",
+
+                "attacked": "A war in the 4iverlands? \nAt this time of year? \nAt this time of day? \nIn this part of the country? \nLocalized entirely up my ass?\nIncredible \nunprecedented.",
+
+                "defeated":  "Better a sword than a rope. Do it.",
+
+                "introduction":  "About time we were invaded again.",
+
+                "neutralHello": "LIFE IS PAIN, I HATE- \noh hello.",
+
+                "hateHello": "You will never know how sick it makes me to see you in this room, cringe player. You will never know how much I despise you",
+
+                "tradeRequest": "Wouldn't it be hilarious if I arrived at your keep via trebuchet next time? \nLike *phweeeww* Straight at the castle walls. Would you like that? \nBecause I could do that.",
+
+                "outerColor": [16, 98, 222],
+
+                "innerColor": [217, 55, 66],
+
+                "uniqueName": "Life is Pain.",
+
+                "uniques": ["[+1 Food, -1 Production] from [Farm] tiles [in all cities]", 
+                  "[+1 Food] from [Farm] tiles [in all cities] <in [River] tiles>", "[+1 Food] from [Marsh] tiles [in all cities]",
+                  "[+1 Gold, +1 Culture] from [Citadel] tiles [in all cities]", 
+                  "[+2 Food] [in all cities] <in [River] tiles>", "[+10]% [Gold] [in all cities] <in [River] tiles>", "[+1] Movement <in [River] tiles> <for [Military] units>" ],
+
+                "cities": ["Riverrun","Harrenhall","Maidenpool","Stony Sept","The Twin","The 2nd Twin","Fairmarket","Saltpans","Seaguard"]
+        },
+{                
+  "name": "The Westerlands",
+
+                "leaderName": "Tywin Lannister",
+
+                "adjective": ["I'm beginning to think these folk might've found gold somewhere..."],
+
+                "personality": "Lannister",
+
+                "startBias": ["Gold Ore"],
+
+                "preferredVictoryType": "Diplomatic",
+
+  //"favoredReligion": "The Seven",
+
+                "declaringWar": "I'm in the world a little while longer, to defend the Lannisters, to defend my blood.",
+
+                "attacked": "Hmph. Wars swallow gold like a pit in the earth.",
+
+                "defeated":  "It’s the family name that lives on. It’s all that lives on. Not your honor, not your personal glory, family.",
+
+                "introduction":  "When soldiers lack discipline, the fault lies with their commander.",
+
+                "neutralHello": "The House that puts family first will always defeat the house that puts the whims and wishes of their sons and daughters' first.",
+
+                "hateHello": "A lion doesn’t concern himself with the opinions of the sheep.",
+
+                "tradeRequest": "You don't need to make formal alliances with people you trust.",
+
+                "outerColor": [232, 18, 9],
+
+                "innerColor": [239, 211, 47],
+
+                "uniqueName": "The Lion in the jungle shows no shame it shows no pride.",
+
+                "uniques": ["[+3 Gold, +1 Culture] from [Gold Ore] tiles [in all cities]", "Double quantity of [Gold Ore] produced",
+                  "[+1 Gold] from [Mine] tiles [in all cities]", 
+                  "[-33]% maintenance costs <for [Land] units>", 
+                  "[Gold] cost of purchasing [Land] units [-33]%", 
+                  "[+1 Culture, +1 Happiness, +1 Science] per every [75] [Gold]"],
+
+                "cities": ["Casterly Rock","Lannisport","Kayce","Faircastle","Ashenmark","The Crag","Silverhill","Crakehall","Golden Tooth"]
+        },
+{                
+                "name": "The Vale",
+
+                "leaderName": "'Sweetrobin' Arryn",
+
+                "adjective": ["The most mountainous"],
+
+                "personality": "Arryn",
+
+                "startBias": ["Mountain"],
+
+                "preferredVictoryType": "Cultural",
+
+
+ // "favoredReligion": "The Seven",
+
+                "declaringWar": "Chaos is a ladder",
+
+                "attacked": "The Vale is unsinkable! \n    You can't! \n  Are you mad?! \n\n\n Are you crazy?",
+
+                "defeated":  "Huh... \n   ...? \n\n ...What? \n\n\n\n\n             What?",
+
+                "introduction":  "We are the free peoples of the Samnite Federation. Respect our peoples, our land, and it's spirit, and we will get along fine.",
+
+                "neutralHello": "Why did you come here? \n    How could you come to the Vale!? \nHaven't you seen my letters?! \n    Have you no decency? \n Who are these people? \n     Why would you bring them here into my home?! \n   Do you realize what you've done? \n  Haven't you seen it yourself? \n The Eyrie is impregnable! \n No one can harm us up here! \nNo one! \n    What do you want!?",
+
+                "hateHello": "I want to see them fly! \n                        Fly out the Moon Door! \nCan we make \nthem fly mama?",
+
+                "tradeRequest": "The seeed is strong.",
+
+                "outerColor": [72, 222, 242],
+
+                "innerColor": [229, 251, 255],
+
+                "uniqueName": "Flock of Seagulls.",
+
+                "uniques": ["[+1 Food, +1 Culture, +1 Faith] from [Mountain] tiles [in all cities]", "[+25]% Strength for cities", "[+50]% Strength for cities <within [1] tiles of a [Mountain]>", "No Maintenance costs for improvements in [Hill] tiles", "[+10]% [Faith] [in capital] <when not at war>", "[+1 Food] from every [{Farm} {Hill}] <when not at war>"],
+
+/* "uniqueText": "+25 Strength for cities, doubled next to mountains, and +2 [Food], +1 [Culture], +1 [Production] and +1 [Faith] from mountains. \nNo maintenance costs for improvements in [Hill]s.", */
+
+                "cities": ["Eiyre","Gulletown","Heart's Home","Snakewoods","Bloody Gate","Sweet Sister","Coldwater","Redfort","Longbow Hall"]
+        },
+{                
+  "name": "The Stormlands",
+
+                "leaderName": "Robert Baratheon",
+
+                "adjective": ["Sturmlndr :DDD"],
+
+                "personality": "Baratheon",
+
+                "startBias": ["Forest"],
+
+                "preferredVictoryType": "Domination",
+
+
+//  "favoredReligion": "The Seven",
+"style": "Slavic",
+
+                "declaringWar": "SURROUNDED BY LANNISTERS! EVERY TIME I CLOSE MY EYES I SEE THEIR BLONDE HAIR AND THEIR SMUG, SATISFIED FACES! \nOUT! OUT, DAMN YOU! \nI'M DONE WITH YOU! \nGO, RUN BACK TO WINTERFELL! I'LL HAVE YOUR HEAD ON A SPIKE!",
+
+                "attacked": "BACKSTABBING DOESN'T PREPARE YOU FOR A FIGHT! \n\nWINE! \n\n\n\n  WINE! \n\n\n          MOOOOOOOOAR WINE!",
+
+                "defeated": "GIVE ME SOMETHING FOR THE PAIN AND LET ME DIE!",
+
+                "introduction": "IN MY DREAMS, I KILL HIM EVERY NIGHT. A THOUSAND DEATHS WILL STILL BE LESS THAN HE DESERVES! \nI WAS NEVER SO ALIVE AS WHEN I WAS WINNING THIS THRONE, OR SO DEAD AS NOW THAT I'VE WON IT! \nI THOUGHT BEING KING MEANT I COULD DO WHATEVER I WANTED! \nALL I WANTED TO DO WAS CRACK SKULLS AND FUCK GIRLS!",
+
+                "neutralHello": "THEY NEVER TELL YOU HOW THEY ALL SHIT THEMSELVES! \nTHEY DON'T PUT THAT PART IN THE SONGS!",
+
+                "hateHello": "YOUR MOTHER WAS A DUMB WHORE WITH A FAT ASS \nYOU KNOW THAT?",
+
+                "tradeRequest": "GODS I WAS STRONG THEN...",
+
+                "outerColor": [223, 217, 42],
+
+                "innerColor": [23, 22, 27],
+
+                "uniqueName": "Hammer Time.",
+
+                "uniques": ["Provides a [Walls] in your first [4] cities for free", "[+1 Culture] from all [Walls] buildings", "[+100]% Production when constructing [Walls] buildings [in all cities]", "New [{Land} {Melee}] units start with [3] Experience [in all cities] <in cities with a [Walls]>",
+                  "[+1 Culture] from all [Castle] buildings",  "[+100]% Production when constructing [Castle] buildings [in all cities]", "New [{Land} {Melee}] units start with [3] Experience [in all cities] <in cities with a [Castle]>",
+                  "[+1 Culture] from all [Arsenal] buildings","[+100]% Production when constructing [Arsenal] buildings [in all cities]", "New [{Land} {Melee}] units start with [3] Experience [in all cities] <in cities with a [Arsenal]>",
+                  "[+1 Culture] from all [Military Base] buildings","[+100]% Production when constructing [Military Base] buildings [in all cities]", "New [{Land} {Melee}] units start with [3] Experience [in all cities] <in cities with a [Military Base]>",
+                  "[+1 Culture] from all [Bomb Shelter] buildings","[+100]% Production when constructing [Bomb Shelter] buildings [in all cities]", "New [{Land} {Melee}] units start with [3] Experience [in all cities] <in cities with a [Bomb Shelter]>",
+                  "[+1 Culture] from all [Barracks] buildings", "[+100]% Production when constructing [Barracks] buildings [in all cities]", "New [{Land} {Melee}] units start with [3] Experience [in all cities] <in cities with a [Barracks]>",
+                  "[+1 Culture] from all [Armory] buildings", "[+100]% Production when constructing [Armory] buildings [in all cities]", "New [{Land} {Melee}] units start with [3] Experience [in all cities] <in cities with a [Armory]>",
+                  "[+1 Culture] from all [Military Academy] buildings", "[+100]% Production when constructing [Military Academy] buildings [in all cities]", "New [{Land} {Melee}] units start with [3] Experience [in all cities] <in cities with a [Military Academy]>",
+                  "[Great General] is earned [+33]% faster",
+                  "Empire enters a [2]-turn Golden Age <upon conquering a city> <with [50]% chance>"],
+                "uniqueText": "Free Walls are automatically built in your first four cities. \nAll defensive and military buildings are built twice as fast, yield +1 [Culture], and +3xp for new land units. \nGreat Generals are earned 33% quicker.",
+
+                "cities": ["Storm's End","Summerhall","Mistwood","Evenfall Hall","Blackhaven","Bronzegate","Greenstone","Hello","I've run  out of city names"]
+        },
+  {                
+                "name": "The Reach",
+
+                "leaderName": "Oleanna Tyrell",
+
+                "adjective": ["Fronch"],
+
+                "personality": "Tyrell",
+
+                "startBias": ["Grassland"],
+
+                "preferredVictoryType": "Cultural",
+
+
+  //"favoredReligion": "The Seven",
+
+         "hateHello": "I wonder if you’re the worst person I’ve ever met? \nAt a certain age, It’s hard to recall. \n\nBut the truly vile do stand out through the years.",
+
+                "attacked": "I've known a great number of clever men. \nI've outlived them all. You know how? \nI ignored them.",
+
+                "defeated":  "Are you going to bring some food or do you mean to starve me to death?", 
+
+                "neutralHello": "What is your name again? You look like an angry little boy. \nDo shut up, dear.",
+	  
+                "introduction":  "I was told you were drunk, impertinent, and thoroughly debauched. You can imagine my disappointment at finding nothing but a browbeaten bookeeper.",
+
+                "declaringWar": "The cheese will be served when I want it served, and I want it served now. ",
+
+                "tradeRequest": "Put the pen down, dear. We both know you’re not writing anything.",
+
+                "outerColor": [7, 178, 15],
+
+                "innerColor": [227, 223, 48],
+
+                "uniqueName": "The large green blob.",
+
+                "uniques": ["[+1 Food] from [Bonus resource] tiles [in all cities] <in [Grassland] tiles>", 
+"[+1 Culture] from [Luxury resource] tiles [in all cities] <in [Grassland] tiles>", 
+"[+15]% growth [in all non-occupied cities]", 
+"Gain [+6] [Culture] (modified by game speed) <upon gaining a [Mounted] unit>",
+                "[+1 Science] from [Farm] tiles [in all cities] <in tiles adjacent to [Academy]>",
+                "[+1 Gold] from [Farm] tiles [in all cities] <in tiles adjacent to [Custom House]>",
+                "[+1 Faith] from [Farm] tiles [in all cities] <in tiles adjacent to [Holy Site]>",
+                "[+1 Culture] from [Farm] tiles [in all cities] <in tiles adjacent to [Landmark]>",
+                "[+1 Food] from [Academy] tiles [in all cities] <with [1] to [1] neighboring [Farm] tiles>",
+                "[+2 Food] from [Academy] tiles [in all cities] <with [2] to [2] neighboring [Farm] tiles>",
+                "[+3 Food] from [Academy] tiles [in all cities] <with [3] to [4] neighboring [Farm] tiles>",
+                "[+4 Food] from [Academy] tiles [in all cities] <with [5] to [6] neighboring [Farm] tiles>",
+                "[+1 Production] from [Academy] tiles [in all cities] <with [1] to [2] neighboring [Pasture] tiles>",
+                "[+2 Production] from [Academy] tiles [in all cities] <with [3] to [4] neighboring [Pasture] tiles>",
+                "[+3 Production] from [Academy] tiles [in all cities] <with [5] to [6] neighboring [Pasture] tiles>",
+                "[+1 Gold] from [Academy] tiles [in all cities] <with [1] to [2] neighboring [Plantation] tiles>",
+                "[+2 Gold] from [Academy] tiles [in all cities] <with [3] to [4] neighboring [Plantation] tiles>",
+                "[+3 Gold] from [Academy] tiles [in all cities] <with [5] to [6] neighboring [Plantation] tiles>",
+                "[+1 Food] from [Custom House] tiles [in all cities] <with [1] to [1] neighboring [Farm] tiles>",
+                "[+2 Food] from [Custom House] tiles [in all cities] <with [2] to [2] neighboring [Farm] tiles>",
+                "[+3 Food] from [Custom House] tiles [in all cities] <with [3] to [4] neighboring [Farm] tiles>",
+                "[+4 Food] from [Custom House] tiles [in all cities] <with [5] to [6] neighboring [Farm] tiles>",
+                "[+1 Production] from [Custom House] tiles [in all cities] <with [1] to [2] neighboring [Pasture] tiles>",
+                "[+2 Production] from [Custom House] tiles [in all cities] <with [3] to [4] neighboring [Pasture] tiles>",
+                "[+3 Production] from [Custom House] tiles [in all cities] <with [5] to [6] neighboring [Pasture] tiles>",
+                "[+1 Gold] from [Custom House] tiles [in all cities] <with [1] to [2] neighboring [Plantation] tiles>",
+                "[+2 Gold] from [Custom House] tiles [in all cities] <with [3] to [4] neighboring [Plantation] tiles>",
+                "[+3 Gold] from [Custom House] tiles [in all cities] <with [5] to [6] neighboring [Plantation] tiles>",
+                "[+1 Food] from [Holy Site] tiles [in all cities] <with [1] to [1] neighboring [Farm] tiles>",
+                "[+2 Food] from [Holy Site] tiles [in all cities] <with [2] to [2] neighboring [Farm] tiles>",
+                "[+3 Food] from [Holy Site] tiles [in all cities] <with [3] to [4] neighboring [Farm] tiles>",
+                "[+4 Food] from [Holy Site] tiles [in all cities] <with [5] to [6] neighboring [Farm] tiles>",
+                "[+1 Production] from [Holy Site] tiles [in all cities] <with [1] to [2] neighboring [Pasture] tiles>",
+                "[+2 Production] from [Holy Site] tiles [in all cities] <with [3] to [4] neighboring [Pasture] tiles>",
+                "[+3 Production] from [Holy Site] tiles [in all cities] <with [5] to [6] neighboring [Pasture] tiles>",
+                "[+1 Gold] from [Holy Site] tiles [in all cities] <with [1] to [2] neighboring [Plantation] tiles>",
+                "[+2 Gold] from [Holy Site] tiles [in all cities] <with [3] to [4] neighboring [Plantation] tiles>",
+                "[+3 Gold] from [Holy Site] tiles [in all cities] <with [5] to [6] neighboring [Plantation] tiles>",
+                "[+1 Food] from [Landmark] tiles [in all cities] <with [1] to [1] neighboring [Farm] tiles>",
+                "[+2 Food] from [Landmark] tiles [in all cities] <with [2] to [2] neighboring [Farm] tiles>",
+                "[+3 Food] from [Landmark] tiles [in all cities] <with [3] to [4] neighboring [Farm] tiles>",
+                "[+4 Food] from [Landmark] tiles [in all cities] <with [5] to [6] neighboring [Farm] tiles>",
+                "[+1 Production] from [Landmark] tiles [in all cities] <with [1] to [2] neighboring [Pasture] tiles>",
+                "[+2 Production] from [Landmark] tiles [in all cities] <with [3] to [4] neighboring [Pasture] tiles>",
+                "[+3 Production] from [Landmark] tiles [in all cities] <with [5] to [6] neighboring [Pasture] tiles>",
+                "[+1 Gold] from [Landmark] tiles [in all cities] <with [1] to [2] neighboring [Plantation] tiles>",
+                "[+2 Gold] from [Landmark] tiles [in all cities] <with [3] to [4] neighboring [Plantation] tiles>",
+                "[+3 Gold] from [Landmark] tiles [in all cities] <with [5] to [6] neighboring [Plantation] tiles>"],
+
+"uniqueText": "+15% Growth in all cities. \nOn Grassland, Bonus Resources yield +1 [Food] and Luxuries yield +1 [Culture]. \n\nFarms, Pastures and Plantations add to the yield of adjacent Great Person improvements, which in turn bleed their yields to adjacent farms. \nGain [Culture] when producting mounted units.",
+
+                "cities": ["Highgarden","Oldtown","Ashford","The Arbor","Tumbleton","Brightwater Keep","Grassy Vale","Goldengrove","Bitterbridge"]
+        },
+  {                
+  "name": "Dorne",
+
+                "leaderName": "Doran Martell",
+
+                "adjective": ["Donk"],
+
+                "personality": "Martell",
+
+                "startBias": ["River", "Desert"],
+
+                "preferredVictoryType": "Cultural",
+
+                "style": "Mesopotamian",
+
+  //"favoredReligion": "The Seven",
+
+                "declaringWar": "Ski-bi dibby dib yo da dub dub
+Yo da dub dub
+Ski-bi dibby dib yo da dub dub
+Yo da dub dub
+Ba-da-ba-da-ba-be bop bop bodda bope
+Bop ba bodda bope
+Be bop ba bodda bope
+Bop ba bodda
+Ba-da-ba-da-ba-be bop ba bodda bope",
+
+                "attacked": "Size does not matter when you're flat on your back.",
+
+                "defeated":  "Today is not the day I die.",
+
+                "introduction":  "If the gods were cruel, they would have made me my mother’s firstborn, \nand Doran her third. \n                I am a bloodthirsty man, you see. \n       But it is me you must contend with now, not my patient, prudent, gouty brother",
+
+                "neutralHello": "When It Comes To War, I Fight For Dorne. When It Comes To Love... I Don't Choose Sides.",
+
+                "hateHello": "After I turn sad, I grow angry.",
+
+                "tradeRequest": "It's a big and beautiful world. Most of us live and die in the same corner where we were born and never get to see any of it. I don’t want to be most of us.",
+
+                "outerColor": [202, 99, 28],
+
+                "innerColor": [248, 225, 86],
+
+                "uniqueName": "Inexplicable fiesty Latin analogue.",
+
+                "uniques": ["All newly-trained [Land] units [in all cities] receive the [Unbowed] promotion",
+"Enemy [Wounded] units must spend [1] extra movement points when inside your territory <when above [20] Happiness>",
+"[+1 Production] from [Desert] tiles [in all cities] <when at war>", 
+"Each city founded increases culture cost of policies [-67]% less than normal", 
+"[-67]% unhappiness from the number of cities",
+"[+1 Culture] from [River] tiles [in all cities]", 
+"[+1 Happiness] from all [Culture] buildings <when not at war>"],
+
+                "cities": ["Sunspear","Yronwood","Lemonwood","Starfall","Godsgrace","Sandstone","Saltshore","The Tor","Hellholt"]
+  },
+  {                
+  "name": "The Iron Islands",
+
+                "leaderName": "Euron Greyjoy",
+
+                "adjective": ["Genuinely devoid of any redeeming cultural qualities"],
+
+                "personality": "Greyjoy",
+
+                "startBias": ["Ocean"],
+
+                "preferredVictoryType": "Domination",
+
+                "style": "Nordic",
+
+  //"favoredReligion": "The Drowned God",
+
+                "declaringWar": "The choice is yours. Live a thrall or die a king. Do you dare to fly? Unless you take the leap, you’ll never know.",
+
+                "tradeRequest": "Kneel. I am your king. I am your god. Worship me, and I will raise you up to be my priest.",
+
+                "defeated":  "Yarr Harr fiddly dee, I love- \n        What? \n\n\n   We... Lost? \n  Shit, uh... \n\n\nPerhaps we can fly. \n All of us. \n  How will we ever know unless we leap from some tall tower? \n   No man ever truly knows what he can do unless he dares to leap. \n Y'know, fuck, I was sure we'd be getting outta this one.",
+
+                "introduction":  "We are the ironborn, and once we were conquerors. Our writ ran everywhere the sound of the waves was heard.",
+
+                "neutralHello": "Godless? Why I am the godliest man ever to raise sail! \nYou serve one god, but I have served ten thousand. \nFrom Ib to Asshai, when men see my sails, they pray.",
+
+                "hateHello": "I am the strom. The first storm, and the last.",
+
+                "attacked": "Huh? \n  Well fuck. \n\nThis is embarrassing. \n Seriously I swear this never happens to me, \n     just... \n\n\n\n          Give me a minute...",
+
+                "outerColor": [134, 142, 149],
+
+                "innerColor": [207, 188, 28],
+
+                "uniqueName": "They forgot how to sow.",
+
+                "uniques": ["[+75]% Production when constructing [Naval] units [in all cities]", "[-25]% maintenance costs <for [Naval] units>", "All newly-trained [Sword] units [in all coastal cities] receive the [Scourge of the Seas] promotion", "All newly-trained [Gunpowder] units [in all coastal cities] receive the [Scourge of the Seas] promotion", "[-1 Food] from [Farm] tiles [in all cities]", "[-1 Food] from [Plantation] tiles [in all cities]", "[1] Movement point cost to embark", "Earn [50]% of killed [Naval] unit's [Strength] as [Faith]", "Damage is ignored when determining unit Strength <for [Naval] units>", "[+25]% Unhappiness from [Population] [in all cities] <when not at war>", "Double quantity of [Iron] produced"],
+
+                "cities": ["Pyke","Harlaw","Old Wyk","Great Wyk","Orkmont","Saltcliffe","Blacktyde","Lonely Light","some other birdshit covered pebble out in the middle of nowhere"]
+  },
+  {                
+  "name": "The Crownlands",
+
+                "leaderName": "Aerys II Targaryen",
+
+                "adjective": ["Lizard Fetishist"],
+
+                "personality": "Targaryen",
+
+                "startBias": ["Coast"],
+
+                "preferredVictoryType": "Diplomatic",
+
+                "style": "Nordic",
+
+  //"favoredReligion": "The Old Gods",
+
+                "declaringWar": "You have threathened the balance of this world, we shall remove you!",
+		"attacked": "What a drag...",
+		"defeated": "AaAahhahahhrhd NOO NO NO NO PLEAE!",
+		"introduction": "Rar XD :3",
+		
+		"neutralHello": "I AM THE GOD OF HELLFIRE",
+		"hateHello": "IMAGINE DRAG ON THIS DICK ACROSS YOUR MOUTH.",
+		"tradeRequest": "Dragon these nuts across your mouth",
+		
+
+                "outerColor": [        28, 21, 25],
+
+                "innerColor": [        174, 57, 53],
+
+                "cities": ["King's Landing", "Dragonstone"],
+      
+"uniqueName": "Imagine Dragon these Nuts",
+		"uniques": ["[+1] population [in capital] <upon conquering a city>", "[-1] population in a random city <upon conquering a city>", "[-33]% Unhappiness from [Population] [in capital]", "Cannot build [Settler] units", "[+250]% Unhappiness from number of cities", "Resting point for Influence with City-States is increased by [30]", "[+10]% Production when constructing [All] wonders [in capital]", "City-State territory always counts as friendly territory", "Militaristic City-States grant units [5] times as fast when you are at war with a common nation"], 
+},
+{                
+  "name": "Braavos",
+
+                "leaderName": "Magnus Valaguahdo",
+
+                "adjective": ["Freeman"],
+
+"cityStateType": "Titanic",
+                "startBias": ["Coast"],
+
+                "style": "Mediterranean",
+
+                "declaringWar": "No, you're not defaulting on your loans.",
+                "attacked": "This decision has killed you, and your empire. You just can't see it yet.",
+                "defeated": "It is fine. I die a free man, fortunate for me. As will you, in a couple days, weeks, soon enough. But freedom will never die.",
+                "outerColor": [0, 0, 0],
+  "innerColor": [205, 190, 200],
+  "uniques": ["[+3 Gold] from every [Specialist]", "Free [Water Dancer] appears <every [6] turns>"],
+	"cities": ["Braavos", "Braavdos"]
+        },
+{                
+  "name": "Norvos",
+
+                "leaderName": "The Red Monk",
+
+                "adjective": ["Norvoshi"],
+
+"cityStateType": "Bewhiskered",
+                "startBias": ["Hills"],
+
+                "style": "Germanic",
+
+                "declaringWar": "Wait. \n\nYour hair... \n\nTHERE IS NONE!?!  \n\n\n You dandy FUCK! \n\nYou just made the biggest mistake of your life.",
+                "attacked": "Sound the bells of war!",
+                "defeated": "I actually hate this. Always have. I don't even know what are god's called.",
+                "outerColor": [0, 0, 0],
+  "innerColor": [195, 70, 140],
+  "uniques": ["[+1 Happiness] from every [Faith]", "Free [Bearded Bishop] appears <every [5] turns>"],
+	"cities": ["Norvos", "Tellum"]
+        },
+{                
+  "name": "Lys",
+
+                "leaderName": "Kim Sex Machine",
+
+                "adjective": ["Lysene"],
+
+"cityStateType": "Salacious",
+                "startBias": ["Coast"],
+
+                "style": "Mediterranean",
+
+                "declaringWar": "Woah woah woah, don't look! We have a gift for you! \nStand still so you can get it between the eyes.",
+                "attacked": "  I  \n           uh, \n\n\n\n\n    uwu?",
+                "defeated": "To the victor go the spoils. Consider yourself blessed.",
+                "outerColor": [0, 0, 0],
+  "innerColor": [240, 110, 245],
+  "uniques": ["[+1 Culture] from every [Happiness]", "Free [Sellsail] appears <every [5] turns>"],
+	"cities": ["Lys", "The cum shaft"]
+        },
+{
+                "name": "The Night's Watch",
+                "adjective": ["Wight's Natch"],
+                "cityStateType": "Obstructive",
+  "style": "Slavic",
+  "leaderName": "Mark Henry",
+                "declaringWar": "We warned you. We made this colony and we can unmake it too.",
+                "attacked": "HOLD THE WALL MEN!",
+                "defeated": "I fought. I lost. And now my watch has ended. \nIf could go back in time, I pray I would've done it all the same.",
+                "outerColor": [0, 0, 0],
+  "innerColor": [200, 190, 200],
+  "uniques": ["[+3 Production] from all [Walls] buildings", "[+1 Production] from [Fort] tiles [in all cities]", "New [Scout] units start with [30] Experience [in all cities]", "[+300]% Strength for cities"],
+                "cities": ["The Wall", "Brandon's Gift"]
+        },
+]
+/*{                
+  "name": "Myr",
+
+                "leaderName": "Carmine Lupertazzi",
+
+                "adjective": ["Myrish"],
+
+"cityStateType": "Padanian",
+                "startBias": ["Coast"],
+
+                "style": "Mediterranean",
+
+                "declaringWar": "Your time has come. I won't bother explaining it to you.",
+                "attacked": "What's the meaning of this shit!",
+                "defeated": "The only hope of progress and enlightenment in this godforsaken world has today been snuffed out. \n\nEnjoy the eternal dark age you have damned us all to.",
+                "outerColor": [0, 0, 0],
+  "innerColor": [40, 220, 20],
+  "uniques": ["[+1 Science] from every [Culture]", "Free [Myrish Crossbowman] appears <every [5] turns>"],
+	"cities": ["Myr", "New West Grestin"]
+        },
+{                
+  "name": "Pentos",
+
+                "leaderName": "Mr Green",
+
+                "adjective": ["Pentoshi"],
+
+"cityStateType": "Vitisupremacist",
+                "startBias": ["Coast"],
+
+                "style": "Mediterranean",
+
+                "declaringWar": "The game was rigged from the start.",
+                "attacked": "I'm sure you don't really mean that.",
+                "defeated": "Cant say I'm surprised. It's honestly a blessing that this took so long to happen. To the victor.",
+                "outerColor": [0, 0, 0],
+  "innerColor": [220, 40, 120],
+  "uniques": ["[+1 Gold] from every [Food]", "Free [Windblown Mercenary] appears <every [9] turns>"],
+	"cities": ["Pentos", "Actually the rest of the continent is empty"]
+        },*/
