@@ -33,17 +33,111 @@
           "name": "Peake",  
            
               "friendBonusUniques": ["Provides military units every ≈[23] turns"],
+
         "allyBonusUniques": ["Provides military units every ≈[20] turns"
 "[+2 Gold] <before the [Medieval era]> <when not at war>",
             "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
             "[+6 Gold] <starting from the [Industrial era]> <when not at war>",
+"[+1 Food] [in all cities] <when at war>"
 
-"[+1 Food] [in all cities] <when at war>",
-          
-                  
-                  ],
+
+
+"[+1] Population [in capital] <upon ending a Golden Age>", "Get the leader title of [[leaderName] Peake] <upon ending a Golden Age>",
+           ],
           "color": [220, 100, 30]
       },                
+{  
+          "name": "Reed",  
+           
+              "friendBonusUniques": ["Provides military units every ≈[25] turns"],
+
+        "allyBonusUniques": ["Provides military units every ≈[22] turns"
+"[+1 Gold] <before the [Medieval era]> <when not at war>",
+            "[+3 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
+            "[+5 Gold] <starting from the [Industrial era]> <when not at war>",
+
+"[+1 Food] [in all cities] <when at war>"
+
+
+
+"[+2 Culture,+1 Food, +1 Production] from [Marsh] tiles [in all cities]" 
+
+
+
+
++2 Gold on Gold and silver
++3 Gold +1 Culture
+
+
++1 Gold Ore
+
++10% Gold from Castles
++15% City health from Castles
+
+
+
+bolton
+
+Capturing a city or pillaging grants a permanent -10% adjacent bonus promotion /culture
+
+bonus for units when in a long war?
+
+
+
+Yron
+
+Bonus melee defense in desert
+bonus xp when defending
+
+
+Hightower
+
+Maesters chains
+
++% Science for wonders in capitol
++faith burst from science/wonder buildings
++% sci in capital?
+
+
+
+redwyne
++ Wine (Arbor)?
++1 Gold, happiness culture on whine
+bonus naval cs from luxuries?
+production?
+retain happiness?
+
+
+blackwood
+forests culture/faith/cs
+bonus to being at war
+bonus vs bracken
+
+
+Royce
+bonus on copper
+xp bonus, time?
+defense?
+
+sisters
+faith for coast kills
+culture? friendly land?
+
+freys
+gold, bonus defense on forts +2x on Citadels
+roads? 
+gold when open borders
+
+
+
+
+
+
+
+
+
+
+
 
     {
         "name": "Titanic",
