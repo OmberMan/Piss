@@ -1,1 +1,326 @@
-# Asoiaf-for-Unciv
+[
+  {
+    "name": "Route",
+    "description": "Build a road to connect your capital to our city.",
+    "influence": 50,
+    "weightForCityStateType": {
+        "Friendly": 2,
+        "Hostile": 0.2,
+        "Maritime": 1.2,
+        "Mercantile": 1.5,
+      "Obstructive": 0.8,
+          "Titanic": 1,
+          "Bewhiskered": 1.5,
+          "Padanian": 1.2,
+          "Salacious": 1.2,
+          "Revanchist": 2
+    }
+  },
+  {
+    "name": "Clear Barbarian Camp",
+    "description": "We feel threatened by a Barbarian Camp near our city. Please take care of it.",
+    "type": "Global",
+    "influence": 50,
+    "minimumCivs": 1,
+      "weightForCityStateType": {
+          "Cultured": 3,
+          "Maritime": 3,
+          "Mercantile": 3,
+          "Militaristic": 9,
+          "Religious": 3,
+        "Obstructive": 9,
+          "Titanic": 2.5,
+          "Bewhiskered": 3.5,
+          "Padanian": 3,
+          "Salacious": 2.5,
+          "Revanchist": 3.5,
+          "
+      }
+  },
+  {
+    "name": "Connect Resource",
+    "description": "In order to make our civilizations stronger, connect [tileResource] to your trade network.",
+      "weightForCityStateType": {
+          "Maritime": 2,
+          "Mercantile": 3,
+        "Obstructive": 0.3,
+          "Titanic": 3.5,
+          "Bewhiskered": 2,
+          "Padanian": 3.5,
+          "Salacious": 3.5,
+          "Revanchist": 2,
+          "Manderly": 2
+      }
+  },
+  {
+    "name": "Construct Wonder",
+    "description": "We recommend you to start building [wonder] to show the whole world your civilization strength.",
+      "weightForCityStateType": {
+          "Cultured": 3,
+        "Obstructive": 0.4,
+          "Titanic": 2.5,
+          "Bewhiskered": 1.5,
+          "Padanian": 2,
+          "Salacious": 2,
+          "Revanchist": 3
+      }
+  },
+  {
+    "name": "Acquire Great Person",
+    "description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson].",
+      "weightForCityStateType": {
+          "Cultured": 3,
+        "Obstructive": 0.7,
+          "Titanic": 1.7,
+          "Bewhiskered": 0.5,
+          "Padanian": 1.5,
+          "Salacious": 1.3,
+          "Revanchist": 1
+      }
+  },
+  {
+    "name": "Conquer City State",
+    "description": "It's time to erase the City-State of [cityState] from the map. You will be greatly rewarded for conquering them!",
+    "influence": 80,
+      "weightForCityStateType": {
+          "Hostile": 2,
+          "Friendly": 0.2,
+          "Militaristic": 2,
+        "Obstructive": 0.2,
+          "Titanic": 1,
+          "Bewhiskered": 2.5,
+          "Padanian": 3,
+          "Salacious": 3,
+          "Revanchist": 3.5
+      }
+  },
+  {
+    "name": "Find Player",
+    "description": "You have yet to discover where [civName] set up their cities. You will be rewarded for finding their territories.",
+    "influence": 35,
+      "weightForCityStateType": {
+          "Maritime": 3,
+          "Mercantile": 2,
+        "Obstructive": 0.1,
+          "Titanic": 2,
+          "Bewhiskered": 0.6,
+          "Padanian": 1,
+          "Salacious": 0.8,
+          "Revanchist": 0.4
+          "Velaryon": 5,
+          "Skagos": 0.2,
+          "Umber": 0.3  
+      }
+  },
+  {
+    "name": "Find Natural Wonder",
+    "description": "Send your best explorers on a quest to discover Natural Wonders. Nobody knows the location of [naturalWonder] yet.",
+      "weightForCityStateType": {
+          "Hostile": 0.3,
+          "Militaristic": 0.5,
+        "Obstructive": 0.2,
+          "Titanic": 1.5,
+          "Bewhiskered": 0.5,
+          "Padanian": 1,
+          "Salacious": 1,
+          "Revanchist": 0.5
+      }
+  },
+  /* G&K */
+  {
+    "name": "Give Gold",
+    "description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Gold, it's only a matter of time before we collapse.",
+    "influence": 20,
+    "duration": 30,
+      "weightForCityStateType": {
+          "Cultured": 3,
+          "Maritime": 3,
+          "Mercantile": 3.5,
+          "Militaristic": 2,
+          "Religious": 3,
+        "Obstructive": 3,
+          "Titanic": 2,
+          "Bewhiskered": 2,
+          "Padanian": 3,
+          "Salacious": 3.5,
+          "Revanchist": 2.5
+      }
+  },
+  {
+    "name": "Pledge to Protect",
+    "description": "We need your protection to stop the aggressions of [civName]. By signing a Pledge of Protection, you'll confirm the bond that ties us.",
+    "influence": 20,
+    "duration": 30,
+      "weightForCityStateType": {
+          "Cultured": 3.5,
+          "Maritime": 3,
+          "Mercantile": 3,
+          "Militaristic": 2,
+          "Religious": 3,
+        "Obstructive": 5,
+          "Titanic": 0.7,
+          "Bewhiskered": 2,
+          "Padanian": 2.5,
+          "Salacious": 2.5,
+          "Revanchist": 0.7
+      }
+  },
+  {
+    "name": "Contest Culture",
+    "description": "The civilization with the largest Culture growth will gain a reward.",
+    "type": "Global",
+    "duration": 30,
+    "minimumCivs": 3,
+      "weightForCityStateType": {
+          "Cultured": 2,
+          "Maritime": 0.5,
+          "Mercantile": 0.5,
+          "Militaristic": 0.5,
+          "Religious": 0.5,
+        "Obstructive": 0.1,
+          "Titanic": 1,
+          "Bewhiskered": 0.5,
+          "Padanian": 1,
+          "Salacious": 1.5,
+          "Revanchist": 0.7
+      }
+  },
+  {
+    "name": "Contest Faith",
+    "description": "The civilization with the largest Faith growth will gain a reward.",
+    "type": "Global",
+    "duration": 30,
+    "minimumCivs": 3,
+      "weightForCityStateType": {
+          "Cultured": 0.5,
+          "Maritime": 0.5,
+          "Mercantile": 0.5,
+          "Militaristic": 0.5,
+          "Religious": 2,
+        "Obstructive": 0.1,
+          "Titanic": 0.4,
+          "Bewhiskered": 2,
+          "Padanian": 0.5,
+          "Salacious": 0.3,
+          "Revanchist": 1,
+"Hightower": 1.5,
+          "Skagos": 0.5,
+          "Reed": 1.5,
+          "Bolton": 0.5,
+          "Bracken": 1.5,
+          "Velaryon": 0.3
+      }
+  },
+  {
+    "name": "Contest Technologies",
+    "description": "The civilization with the largest number of new Technologies researched will gain a reward.",
+    "type": "Global",
+    "duration": 30,
+    "minimumCivs": 3,
+      "weightForCityStateType": {
+          "Religious": 0.5
+        "Obstructive": 0.2,
+          "Titanic": 1.3,
+          "Bewhiskered": 0.3,
+          "Padanian": 1.5,
+          "Salacious": 0.5,
+          "Revanchist": 0.5,
+          "Hightower": 2,
+          "Skagos": 0.1,
+          "Reed": 0.5,
+          "Umber": 0.5,
+          "Velaryon": 1.25
+      }
+  },
+  {
+    "name": "Invest",
+    "description": "Our people are rejoicing thanks to a tourism boom. For a certain amount of time, any Gold donation will yield [50]% extra Influence.",
+    "type": "Global",
+    "influence": 0,
+    "duration": 30,
+    "minimumCivs": 2,
+      "weightForCityStateType": {
+          "Mercantile": 1.5,
+        "Obstructive": 1.2,
+          "Titanic": 2,
+          "Bewhiskered": 1,
+          "Padanian": 2.2,
+          "Salacious": 2.5,
+          "Revanchist": 1,
+"Velaryon": 1.5,
+          "Skagos": 0.2,
+          "Mormont": 0.7,
+          "Tarly": 0.7,
+          "Reed": 0.5
+      }
+  },
+  {
+    "name": "Bully City State",
+    "description": "We are tired of the pretensions of [cityState]. If someone were to put them in their place by Demanding Tribute from them, they would be rewarded.",
+    "duration": 30,
+      "weightForCityStateType": {
+          "Hostile": 2,
+          "Irrational": 1.5,
+          "Friendly": 0.3,
+        "Obstructive": 0.1,
+          "Titanic": 0.5,
+          "Bewhiskered": 1.3,
+          "Padanian": 5,
+          "Salacious": 5,
+          "Revanchist": 2.5,
+ "Reed": 0.5,
+          "Bracken": 3.5,
+          "Blackwood": 3,
+          "Reyne": 2.5,
+          "Dayne": 0.7,
+ "Peake": 4.5
+          
+      }
+  },
+  {
+    "name": "Denounce Civilization",
+    "description": "We have been forced to pay tribute to [civName]! We need you to tell the world of their ill deeds.",
+    "duration": 30,
+      "weightForCityStateType": {
+          "Cultured": 1.5,
+          "Maritime": 2,
+          "Mercantile": 1.5,
+          "Militaristic": 1.5,
+          "Religious": 2.5,
+        "Obstructive": 3.5,
+          "Titanic": 2.5,
+          "Bewhiskered": 1.3,
+          "Padanian": 3,
+          "Salacious": 3,
+          "Revanchist": 1,
+          "Blackwood": 2,
+          "Bracken": 2,
+          "Reyne": 3.5
+      }
+  },
+  {
+    "name": "Spread Religion",
+    "description": "We have heard the tenets of [religionName] and are most curious. Will you send missionaries to teach us about your religion?",
+      "weightForCityStateType": {
+          "Religious": 3,
+          "Obstructive": 0.3,
+          "Titanic": 2,
+          "Bewhiskered": 0.5,
+          "Padanian": 1,
+          "Salacious": 0.7,
+          "Revanchist": 1.5,
+          "Manderly": 1.5,
+          "Skagos": 0.4,
+          "Blackwood": 0.5,
+          
+
+      }
+  }
+  /* BNW */
+  /*
+  {
+    "name": "Trade Route",
+    "description": ""
+  }
+  */
+]
