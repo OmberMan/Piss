@@ -13,7 +13,12 @@
           "Bewhiskered": 1.5,
           "Padanian": 1.2,
           "Salacious": 1.2,
-          "Revanchist": 2
+          "Revanchist": 2,
+          "Frey": 3,
+          "Manderly": 1.5
+          "Skagos": 0.5,
+          "Peake": 1.5,
+          "Mormont": 0.7
     }
   },
   {
@@ -34,7 +39,10 @@
           "Padanian": 3,
           "Salacious": 2.5,
           "Revanchist": 3.5,
-          "
+          "Skagos": 0.2,
+          "Yronwood": 0.6,
+          "Umber": 0.4,
+          "Crabb": 0.6
       }
   },
   {
@@ -49,7 +57,9 @@
           "Padanian": 3.5,
           "Salacious": 3.5,
           "Revanchist": 2,
-          "Manderly": 2
+          "Manderly": 2,
+          "Velaryon": 2,
+          "Redwyne": 2
       }
   },
   {
@@ -62,7 +72,9 @@
           "Bewhiskered": 1.5,
           "Padanian": 2,
           "Salacious": 2,
-          "Revanchist": 3
+          "Revanchist": 3,
+          "Hightower": 2.5,
+          "Tarth": 1.5
       }
   },
   {
@@ -75,7 +87,11 @@
           "Bewhiskered": 0.5,
           "Padanian": 1.5,
           "Salacious": 1.3,
-          "Revanchist": 1
+          "Revanchist": 1,
+          "Crabb": 4,
+          "Bolton": 0.2,
+          "Reyne": 0.5,
+          "Tarly": 1.3
       }
   },
   {
@@ -91,7 +107,14 @@
           "Bewhiskered": 2.5,
           "Padanian": 3,
           "Salacious": 3,
-          "Revanchist": 3.5
+          "Revanchist": 3.5,
+          "Tarly": 1.5,
+          "Frey": 1.5,
+          "Umber": 3,
+          "Blackwood": 5,
+          "Bracken": 5,
+          "Ryswell": 1.5
+
       }
   },
   {
@@ -123,7 +146,12 @@
           "Bewhiskered": 0.5,
           "Padanian": 1,
           "Salacious": 1,
-          "Revanchist": 0.5
+          "Revanchist": 0.5,
+          "Reed": 1.5,
+          "Velaryon": 4,
+          "Tarly": 0.5,
+          "Bolton": 0.7,
+          "Tarth": 1.3
       }
   },
   /* G&K */
@@ -143,7 +171,10 @@
           "Bewhiskered": 2,
           "Padanian": 3,
           "Salacious": 3.5,
-          "Revanchist": 2.5
+          "Revanchist": 2.5,
+          "Skagos": 2,
+          "Mormont": 0.6,
+          "Peake": 1.3
       }
   },
   {
