@@ -1,0 +1,53 @@
+{  
+          "name": "Obstructive",  
+          "friendBonusUniques": [   
+              "[+33]% Strength <vs [Barbarian] units>",  "[-15]% maintenance costs <for [Land] units>", "Free [Crow] appears <in [Capital] cities>", "[+25]% Strength for cities"
+],
+
+          "allyBonusUniques": ["[+66]% Strength <vs [Barbarian] units>",  "[-30]% maintenance costs <for [Land] units>", "Free [Crow] appears <in [Capital] cities> <every [10] turns>", "[+50]% Strength for cities"],  
+          "color": [200, 190, 200]
+      },                
+  {  
+          "name": "Bewhiskered",  
+          "friendBonusUniques": [   
+            "[+4 Faith] <before the [Medieval era]>",
+            "[+8 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+16 Faith] <starting from the [Industrial era]>",
+                        "[+1 Happiness] from all [Faith] buildings <before the [Medieval era]>",
+"[+2 Happiness] from all [Faith] buildings <starting from the [Medieval era]>"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Faith] <before the [Medieval era]>",
+            "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Faith] <starting from the [Industrial era]>",
+                        "[+1 Faith, +1 Production] from [{Trading post} {Hill}] tiles [in all cities]",
+"[+2 Happiness] from all [Faith] buildings <before the [Medieval era]>",
+"[+3 Happiness] from all [Faith] buildings <starting from the [Medieval era]>",
+            "Unique Building [Essosi Sellsword Camp]", "Free [Bearded Bishop] appears <in [Capital] cities> <every [14] turns>", "[Gold] cost of purchasing [Bearded Bishop] units [-33]%", "Unique Building [Bell Tower]", "Provides [1] [Eastern Check]"
+        ],
+        "color": [255, 255, 255]
+    },
+
+    {
+        "name": "Titanic",
+        "friendBonusUniques": [
+            "[+2 Gold] per [2] social policies adopted <before the [Medieval era]>",
+            "[+4 Gold] per [2] social policies adopted <starting from the [Medieval era]>",
+            "[+2 Gold] <before the [Medieval era]>",
+            "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+8 Gold] <starting from the [Industrial era]>",
+"Free [Water Dancer] appears <in [Capital] cities>",
+ "Unique Building [Essosi Sellsword Camp]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Gold] per [1] social policies adopted <before the [Medieval era]>",
+            "[+4 Gold] per [1] social policies adopted <starting from the [Medieval era]>",
+"[-4]% Culture cost of adopting new Policies <after adopting [Liberty]> <starting from the [Medieval era]>",
+            "[+2 Gold] <before the [Medieval era]>",
+            "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+8 Gold] <starting from the [Industrial era]>",
+            "Provides a unique luxury",
+            "Unique Building [Essosi Sellsword Camp]", "Free [Water Dancer] appears <every [10] turns> <in [Capital] cities>", "[Gold] cost of purchasing [Faceless Man] units [-75]%", "Unique Building [Iron Bank Delegation]", "Provides [2] [Square Coin]", "Provides [1] [Eastern Check]"
+        ],
+        "color": [255, 216, 0]
+    },
