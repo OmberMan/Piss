@@ -1,3 +1,17 @@
+
+[Friendly] units gain the [Death from Above] promotion <upon ending a turn in a [pillaged] tile>
+
+[Friendly] units gain the [Death from Above] promotion <upon conquering a city> <for units with [What is dead may never die]>
+
+
+
+[relativeAmount]% Strength <when number of [[Maester's Chain] Per Turn] is more than [countable]> <for [Water] units>
+
+
+
+
+
+
 {  
           "name": "Obstructive",  
           "friendBonusUniques": [   
