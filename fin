@@ -1,0 +1,34 @@
+{  
+          "name": "Peake",  
+
+              "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+
+        "allyBonusUniques": ["Provides military units every ≈[17] turns"
+"[+2 Gold] <before the [Medieval era]> <when not at war>",
+            "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
+            "[+6 Gold] <starting from the [Industrial era]> <when not at war>",
+"[+1 Food] [in all cities] <when at war>"
+
+
+
+"[+1] Population [in capital] <upon ending a Golden Age>", "Get the leader title of [[leaderName] Peake] <upon ending a Golden Age>",
+           ],
+          "color": [220, 100, 30]
+      },                
+{  
+          "name": "Hightower",  
+
+              "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+
+        "allyBonusUniques": ["Provides military units every ≈[17] turns"
+"[+2 Gold] <before the [Medieval era]> <when not at war>",
+            "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
+            "[+6 Gold] <starting from the [Industrial era]> <when not at war>",
+"[+1 Food] [in all cities] <when at war>"
+
+
+
+"[+1] Population [in capital] <upon ending a Golden Age>", "Get the leader title of [[leaderName] Peake] <upon ending a Golden Age>",
+           ],
+          "color": [220, 100, 30]
+      },                
