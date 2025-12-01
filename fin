@@ -28,7 +28,25 @@
 
 
 
-"Gain enough Faith for [7%]% of a Great Prophet [in capital] <upon constructing [Wonder] [in capital]>, "[+1]% [Science] from every [Wonder] <in [Capital] cities>",
+"Gain enough Faith for [7%]% of a Great Prophet [in capital] <upon constructing [Wonder] [in capital]>], "[+1]% [Science] from every [Wonder] <in [Capital] cities>",
            ],
           "color": [220, 100, 30]
       },                
+{  
+          "name": "Redwyne",  
+
+              "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+
+        "allyBonusUniques": ["Provides military units every ≈[17] turns"
+"[+2 Gold] <before the [Medieval era]> <when not at war>",
+            "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
+            "[+6 Gold] <starting from the [Industrial era]> <when not at war>",
+"[+1 Food] [in all cities] <when at war>"
+
+
+
+"Gain enough Faith for [7%]% of a Great Prophet [in capital] <upon constructing [Wonder] [in capital]>], "[+2]% Strength <for [Water] units> <with [Arbor Gold]>", "[+2]% Strength <for [Water] units> <with [Wine]>", "[+2]% Strength <for [Water] units> <with [Salt]>", "[+2]% Strength <for [Water] units> <with [Silver]>", "[+2]% Strength <for [Water] units> <with [Gold Ore]>", "[+2]% Strength <for [Water] units> <with [Marble]>", "[+2]% Strength <for [Water] units> <with [Gems]>", "[+2]% Strength <for [Water] units> <with [Citrus]>", "[+2]% Strength <for [Water] units> <with [Cotton]>", "[+2]% Strength <for [Water] units> <with [Dyes]>", "[+2]% Strength <for [Water] units> <with [Spices]>","[+2]% Strength <for [Water] units> <with [Truffles]>", "[+2]% Strength <for [Water] units> <with [Ivory]>", "[+2]% Strength <for [Water] units> <with [Furs]>", "[+2]% Strength <for [Water] units> <with [Whales]>", "[+2]% Strength <for [Water] units> <with [Pearls]>","[+2]% Strength <for [Water] units> <with [Crabs]>",
+           ],
+          "color": [180, 10, 100]
+      },                
+<when above [amount] [stat/resource]>
