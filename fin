@@ -7,7 +7,7 @@
 "[+2 Gold] <before the [Medieval era]> <when not at war>",
             "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
             "[+6 Gold] <starting from the [Industrial era]> <when not at war>",
-"[+1 Food] [in all cities] <when at war>"
+"[+1 Food] [in all cities] <when at war>",
 
 
 
@@ -24,7 +24,7 @@
 "[+2 Gold] <before the [Medieval era]> <when not at war>",
             "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
             "[+6 Gold] <starting from the [Industrial era]> <when not at war>",
-"[+1 Food] [in all cities] <when at war>"
+"[+1 Food] [in all cities] <when at war>",
 
 
 
@@ -58,12 +58,29 @@
 "[+2 Gold] <before the [Medieval era]> <when not at war>",
             "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
             "[+6 Gold] <starting from the [Industrial era]> <when not at war>",
-"[+1 Food] [in all cities] <when at war>"
+"[+1 Food] [in all cities] <when at war>",
 
 
 
-"[+25]% Strength <for [{Wounded} {Melee}] units> <vs [not
+"[+25]% Strength <for [{Wounded} {Melee}] units> <vs [non-[Wounded] units>" 
            ],
           "color": [30, 160, 20]
       },
-<when above [amount] [stat/resource]>
+{  
+          "name": "Dayne",  
+
+              "friendBonusUniques": ["Provides military units every ≈[19] turns"],
+
+        "allyBonusUniques": ["Provides military units every ≈[16] turns"
+"[+2 Gold] <before the [Medieval era]> <when not at war>",
+            "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
+            "[+6 Gold] <starting from the [Industrial era]> <when not at war>",
+"[+1 Food] [in all cities] <when at war>",
+
+
+
+"[+50]% Strength <for [Sword] units> <when stacked with a [Great General] unit>", "[+50]% Strength <for [Gunpowder] units> <when stacked with a [Great General] unit>", "Earn [100]% of the damage done to [Melee] units as [stockpile] <for [Sword] units> <when stacked with a [Great General] unit>", "Earn [50]% of the damage done to [Melee] units as [Culture] <for [Gunpowder] units> <when stacked with a [Great General] unit>" 
+
+           ],
+          "color": [240, 90, 250]
+      },
