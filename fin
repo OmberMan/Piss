@@ -62,7 +62,7 @@
 
 
 
-"[+1] Population [in capital] <upon ending a Golden Age>", "Get the leader title of [[leaderName] Peake] <upon ending a Golden Age>",
+"[+25]% Strength <for [{Wounded} {Melee}] units> <vs [not
            ],
           "color": [30, 160, 20]
       },
