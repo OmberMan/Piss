@@ -100,5 +100,6 @@
 "[+20]% Strength <when defending> <in [open terrain] tiles> <with [2] to [4] neighboring [Hill] tiles>", "[+20]% Strength <when defending> <in [open terrain] tiles> <with [2] to [2] neighboring [Mountain] tiles>", "[+20]% Strength <when defending> <in [Desert] tiles>"
 
            ],
-          "color": [240, 90, 250]
+          "color": [230, 120, 210]
       },
+]
