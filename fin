@@ -47,7 +47,7 @@
 
 "Provides [2] [Arbor Gold]", "[+2]% Strength <for [Water] units> <with [Arbor Gold]>", "[+2]% Strength <for [Water] units> <with [Wine]>", "[+2]% Strength <for [Water] units> <with [Salt]>", "[+2]% Strength <for [Water] units> <with [Silver]>", "[+2]% Strength <for [Water] units> <with [Gold Ore]>", "[+2]% Strength <for [Water] units> <with [Marble]>", "[+2]% Strength <for [Water] units> <with [Gems]>", "[+2]% Strength <for [Water] units> <with [Citrus]>", "[+2]% Strength <for [Water] units> <with [Cotton]>", "[+2]% Strength <for [Water] units> <with [Dyes]>", "[+2]% Strength <for [Water] units> <with [Spices]>","[+2]% Strength <for [Water] units> <with [Truffles]>", "[+2]% Strength <for [Water] units> <with [Ivory]>", "[+2]% Strength <for [Water] units> <with [Furs]>", "[+2]% Strength <for [Water] units> <with [Whales]>", "[+2]% Strength <for [Water] units> <with [Pearls]>","[+2]% Strength <for [Water] units> <with [Crabs]>",
            ],
-          "color": [180, 10, 100]
+          "color": [181, 8, 194]
       },               
 {  
           "name": "Tarly",  
@@ -64,7 +64,7 @@
 
 "[+25]% Strength <for [{Wounded} {Melee}] units> <vs [non-[Wounded] units>" 
            ],
-          "color": [30, 160, 20]
+          "color": [45, 191, 19]
       },
 {  
           "name": "Dayne",  
@@ -82,7 +82,7 @@
 "[+50]% Strength <for [Sword] units> <when stacked with a [Great General] unit>", "[+50]% Strength <for [Gunpowder] units> <when stacked with a [Great General] unit>", "Earn [100]% of the damage done to [Melee] units as [stockpile] <for [Sword] units> <when stacked with a [Great General] unit>", "Earn [50]% of the damage done to [Melee] units as [Culture] <for [Gunpowder] units> <when stacked with a [Great General] unit>" 
 
            ],
-          "color": [240, 90, 250]
+          "color": [228, 172, 242]
       },
 {  
           "name": "Yronwood",  
@@ -100,6 +100,22 @@
 "[+20]% Strength <when defending> <in [open terrain] tiles> <with [2] to [4] neighboring [Hill] tiles>", "[+20]% Strength <when defending> <in [open terrain] tiles> <with [2] to [2] neighboring [Mountain] tiles>", "[+20]% Strength <when defending> <in [Desert] tiles>"
 
            ],
-          "color": [230, 120, 210]
+          "color": [250, 221, 95]
+      },
+{  
+          "name": "Yronwood",  
+
+              "friendBonusUniques": ["Provides military units every ≈[19] turns"],
+
+        "allyBonusUniques": ["Provides military units every ≈[16] turns"
+"[+2 Gold] <before the [Medieval era]> <when not at war>",
+            "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
+            "[+6 Gold] <starting from the [Industrial era]> <when not at war>",
+"[+1 Food] [in all cities] <when at war>",
+
+
+
+"[+50]% Strength <when defending> <in [{Friendly land}{Coastal}] tiles>", "[+50]% Strength <when defending> <in [{Friendly land}{Coast}] tiles>", "[+1 Happiness,+1 Gold] from [Gems]", "Provides [1] [Gems]"],
+          "color": [255, 239, 66]
       },
 ]
