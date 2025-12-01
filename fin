@@ -103,7 +103,23 @@
           "color": [250, 221, 95]
       },
 {  
-          "name": "Yronwood",  
+          "name": "Tarth",  
+
+              "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+
+        "allyBonusUniques": ["Provides military units every ≈[17] turns"
+"[+2 Gold] <before the [Medieval era]> <when not at war>",
+            "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
+            "[+6 Gold] <starting from the [Industrial era]> <when not at war>",
+"[+1 Food] [in all cities] <when at war>",
+
+
+
+"[+50]% Strength <when defending> <in [{Friendly land}{Coastal}] tiles>", "[+50]% Strength <when defending> <in [{Friendly land}{Coast}] tiles>", "[+1 Happiness,+1 Gold] from [Gems]", "Provides [1] [Gems]"],
+          "color": [255, 239, 66]
+      },
+{  
+          "name": "Connington",  
 
               "friendBonusUniques": ["Provides military units every ≈[19] turns"],
 
@@ -116,6 +132,7 @@
 
 
 "[+50]% Strength <when defending> <in [{Friendly land}{Coastal}] tiles>", "[+50]% Strength <when defending> <in [{Friendly land}{Coast}] tiles>", "[+1 Happiness,+1 Gold] from [Gems]", "Provides [1] [Gems]"],
-          "color": [255, 239, 66]
+          "color": [235, 20, 20]
       },
+
 ]
