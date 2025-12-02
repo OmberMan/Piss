@@ -131,8 +131,24 @@
 
 
 
-"[+50]% Strength <when defending> <in [{Friendly land}{Coastal}] tiles>", "[+50]% Strength <when defending> <in [{Friendly land}{Coast}] tiles>", "[+1 Happiness,+1 Gold] from [Gems]", "Provides [1] [Gems]"],
+"[+20]% Strength <when adjacent to a [{Friendly} {Great}] unit>", "Gain [1-3] [Culture] <upon being defeated> <for [Melee] units>"],
           "color": [235, 20, 20]
+      },
+{  
+          "name": "Connington",  
+
+              "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+
+        "allyBonusUniques": ["Provides military units every ≈[17] turns"
+"[+1 Gold] <before the [Medieval era]> <when not at war>",
+            "[+3 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
+            "[+5 Gold] <starting from the [Industrial era]> <when not at war>",
+"[+1 Food] [in all cities] <when at war>",
+
+
+
+"[+25]% Strength <when fighting in [Marsh] tiles>", "[+2] Movement <in [Marsh] tiles> <for [Sword] units", "Gain [1-3] [Culture] <upon being defeated> <for [Melee] units>"],
+          "color": [95, 160, 86]
       },
 
 ]
