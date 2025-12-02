@@ -150,5 +150,20 @@
 "[+25]% Strength <when fighting in [Marsh] tiles>", "[+2] Movement <in [Marsh] tiles> <for [Sword] units", "[+2] Movement <in [Marsh] tiles> <for [Archery] units", "[+2] Movement <in [Marsh] tiles> <for [Gunpowder] units", "[+2] Movement <in [Marsh] tiles> <for [Ranged Gunpowder] units", "[+1 Culture, +1 Food, +1 Faith] from [Marsh] tiles"],
           "color": [95, 160, 86]
       },
+{  
+          "name": "Connington",  
 
+              "friendBonusUniques": ["Provides military units every ≈[18] turns"],
+
+        "allyBonusUniques": ["Provides military units every ≈[15] turns"
+"[+2 Gold] <before the [Medieval era]> <when not at war>",
+            "[+4 Gold] <starting from the [Medieval era]> <before the [Industrial era]> <when not at war>",
+            "[+6 Gold] <starting from the [Industrial era]> <when not at war>",
+"[+1 Food] [in all cities] <when at war>",
+
+
+
+"[+20]% Strength <when adjacent to a [{Friendly} {Great}] unit>", "[+1 Culture] from [Lumber Mill] tiles"],
+          "color": [30, 140, 20]
+      },
 ]
