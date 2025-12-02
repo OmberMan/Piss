@@ -430,14 +430,25 @@ rrd
           "Maritime": 2,
           "Mercantile": 1.5,
           "Militaristic": 1.5,
-          "Religious": 2.5
+          "Religious": 2.5,
+          "Bracken": 3.5,
+          "Blackwood": 3.5,
+          "Ryswell": 3,
+          "Velaryon": 1.5,
+          "Tarly": 2,
+          "Umber": 2
       }
   },
   {
     "name": "Spread Religion",
     "description": "We have heard the tenets of [religionName] and are most curious. Will you send missionaries to teach us about your religion?",
       "weightForCityStateType": {
-          "Religious": 3
+          "Religious": 3,
+          "Sunderland": 0.5,
+          "Manderly": 1.5,
+          "Blackwood": 0.5,
+          "Reed": 0.5,
+          "Bracken": 1.25
       }
   }
   /* BNW */
