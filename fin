@@ -135,7 +135,7 @@
           "color": [235, 20, 20]
       },
 {  
-          "name": "Connington",  
+          "name": "Reed",  
 
               "friendBonusUniques": ["Provides military units every ≈[20] turns"],
 
@@ -147,7 +147,7 @@
 
 
 
-"[+25]% Strength <when fighting in [Marsh] tiles>", "[+2] Movement <in [Marsh] tiles> <for [Sword] units", "Gain [1-3] [Culture] <upon being defeated> <for [Melee] units>"],
+"[+25]% Strength <when fighting in [Marsh] tiles>", "[+2] Movement <in [Marsh] tiles> <for [Sword] units", "[+2] Movement <in [Marsh] tiles> <for [Archery] units", "[+2] Movement <in [Marsh] tiles> <for [Gunpowder] units", "[+2] Movement <in [Marsh] tiles> <for [Ranged Gunpowder] units", "[+1 Culture, +1 Food, +1 Faith] from [Marsh] tiles"],
           "color": [95, 160, 86]
       },
 
