@@ -151,7 +151,7 @@
           "color": [95, 160, 86]
       },
 {  
-          "name": "Connington",  
+          "name": "Ryswell",  
 
               "friendBonusUniques": ["Provides military units every ≈[18] turns"],
 
@@ -163,7 +163,7 @@
 
 
 
-"[+20]% Strength <when adjacent to a [{Friendly} {Great}] unit>", "[+1 Culture] from [Lumber Mill] tiles"],
+"[+10]% Strength <for [Mounted] units> <when fighting in [Hill] tiles>", "[+10]% Strength <for [Armor] units> <when fighting in [Hill] tiles>", "[+1] Movement <for [Mounted] units> <in [Hill] tiles>", "[+1] Movement <for [Armor] units> <in [Hill] tiles>", "[+1 Culture] from [Lumber Mill] tiles",
           "color": [30, 140, 20]
       },
 ]
