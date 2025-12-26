@@ -1,12 +1,13 @@
         {
                 "name": "Wasteland",
                 "type": "Land",
-                "movementCost": 1,
+                "movementCost": 2,
+	"food": -2,
                 "defenceBonus": -0.1,
                 "RGB": [97, 171, 58],
                 "uniques": [
-                        "Occurs at temperature between [0.8] and [0.9] and humidity between [-0.9] and [-0.8]",
-                        "[-10] to Fertility for Map Generation",
+                        	"Rough terrain",
+			"Doesn't generate naturally",
                         "A Region is formed with at least [80]% [Wasteland] tiles, with priority [8]",
             
                         "Considered [Undesirable] when determining start locations",
@@ -14,5 +15,7 @@
                         "Every [26] tiles with this terrain will receive a major deposit of a strategic resource.",
                         "Urban terrain <in [City center] tiles>",
                         "Air Base <in [City center] tiles> <in cities with a [Aerospace Facility]>"
+"Blocks line-of-sight from tiles at same elevation",
+"Units ending their turn on this terrain take [33] damage"
                 ]
         },
