@@ -8,17 +8,22 @@
         "Hostile": 0.2,
         "Maritime": 1.2,
         "Mercantile": 1.5,
-      "Obstructive": 0.8,
+      "Obstructive": 3,
           "Titanic": 1,
           "Bewhiskered": 1.5,
-          "Padanian": 1.2,
+          "Padanian": 1.5,
           "Salacious": 1.2,
           "Revanchist": 2,
           "Frey": 3,
           "Manderly": 1.5
           "Skagos": 0.5,
-          "Peake": 1.5,
-          "Mormont": 0.7
+          "Peake": 1.3,
+          "Mormont": 0.7,
+          "Omber": 2,
+          "Meereen": 1.5,
+          "Sarnori": 2,
+          "Mantarys": 0.5,
+          "Reed": 0.5
     }
   },
   {
@@ -33,16 +38,18 @@
           "Mercantile": 3,
           "Militaristic": 9,
           "Religious": 3,
-        "Obstructive": 9,
+        "Obstructive": 10,
           "Titanic": 2.5,
-          "Bewhiskered": 3.5,
+          "Bewhiskered": 4,
           "Padanian": 3,
           "Salacious": 2.5,
           "Revanchist": 3.5,
           "Skagos": 0.2,
           "Yronwood": 0.6,
           "Umber": 0.4,
-          "Crabb": 0.6
+          "Brune": 0.6,
+          "Sarnori": 6,
+          "Omber": 8
       }
   },
   {
